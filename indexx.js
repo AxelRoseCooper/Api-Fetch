@@ -27,11 +27,11 @@ async function guardarDatosLocalStorage(){
     
     datosConvertidos.forEach(function(element){
         body += `<tr>
-        <td class="col-sm " >${element.id}</td>
-        <td class="col-sm">${element.first_name}</td>
-        <td class="col-sm">${element.last_name}</td>
-        <td class="col-sm">${element.email}</td>
-        <td class="col-sm">
+        <td class="col-sm align-middle" >${element.id}</td>
+        <td class="col-sm align-middle">${element.first_name}</td>
+        <td class="col-sm align-middle">${element.last_name}</td>
+        <td class="col-sm align-middle">${element.email}</td>
+        <td class="col-sm align-middle">
         <img class="rounded-circle img-fluid " src="${element.avatar}">  </img>
         </td> 
         </tr>`  
@@ -44,4 +44,3 @@ guardarDatosLocalStorage();
  
 
 
-//<img src="${element.avatar}"></img>
